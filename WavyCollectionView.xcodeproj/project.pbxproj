@@ -13,6 +13,8 @@
 		CAB3218120911E36008BA8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB3218020911E36008BA8A0 /* Assets.xcassets */; };
 		CAB3218420911E36008BA8A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB3218220911E36008BA8A0 /* LaunchScreen.storyboard */; };
 		CAB3218720911E36008BA8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB3218620911E36008BA8A0 /* main.m */; };
+		CAB3218F20912008008BA8A0 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB3218E20912008008BA8A0 /* CustomCell.m */; };
+		CAB32192209120C5008BA8A0 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB32191209120C5008BA8A0 /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CAB3218320911E36008BA8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB3218520911E36008BA8A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB3218620911E36008BA8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAB3218D20912008008BA8A0 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CAB3218E20912008008BA8A0 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		CAB32190209120C5008BA8A0 /* WavyFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		CAB32191209120C5008BA8A0 /* WavyFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				CAB3218220911E36008BA8A0 /* LaunchScreen.storyboard */,
 				CAB3218520911E36008BA8A0 /* Info.plist */,
 				CAB3218620911E36008BA8A0 /* main.m */,
+				CAB3218D20912008008BA8A0 /* CustomCell.h */,
+				CAB3218E20912008008BA8A0 /* CustomCell.m */,
+				CAB32190209120C5008BA8A0 /* WavyFlowLayout.h */,
+				CAB32191209120C5008BA8A0 /* WavyFlowLayout.m */,
 			);
 			path = WavyCollectionView;
 			sourceTree = "<group>";
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB3217C20911E36008BA8A0 /* ViewController.m in Sources */,
+				CAB32192209120C5008BA8A0 /* WavyFlowLayout.m in Sources */,
 				CAB3218720911E36008BA8A0 /* main.m in Sources */,
+				CAB3218F20912008008BA8A0 /* CustomCell.m in Sources */,
 				CAB3217920911E36008BA8A0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +296,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AleZ.WavyCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -298,7 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AleZ.WavyCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
